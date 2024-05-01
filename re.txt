@@ -36,5 +36,13 @@ git status
 git merge fix main
 git push origin main
 
-
+ex5 collab
+git clone (url)
+cd (repo name)
+git remote -v
+git remote add upstream(url)
+git fetch upstream
+git brach
+git merge upstream/master
+git push origin
 
