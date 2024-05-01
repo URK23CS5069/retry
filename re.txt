@@ -1,1 +1,17 @@
 hey haii my jkbuygfrcxz
+
+ex6 
+git init
+git clone <url>
+cd <repo name>
+git submodule add <url>
+git status
+git add -A
+git commit -m"submodule"
+git push -u origin main
+git submodule deinit --all
+git status
+git config --global alias.st status
+git st
+git config --global alias.br branch
+git br
