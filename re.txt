@@ -15,3 +15,26 @@ git config --global alias.st status
 git st
 git config --global alias.br branch
 git br
+
+ex 3
+git clone <url>
+ls
+cd <repo name>
+git status(doc)
+git status
+git add -A
+git commit -m"adding new file"
+git push origin main 
+git status
+git checkout -b fix(doc)
+git status
+git add -A
+git commit -m"update"
+git push origin fix
+git checkout main
+git status
+git merge fix main
+git push origin main
+
+
+
