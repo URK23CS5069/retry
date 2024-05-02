@@ -46,3 +46,11 @@ git brach
 git merge upstream/master
 git push origin
 
+ex4 
+git init
+git remote add origin<url>
+git status
+git add -A
+git commit -m"file addition"
+git push origin master
+git pull origin master
